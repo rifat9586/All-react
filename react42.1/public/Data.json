@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co/XYr4Jy3/download-8.jpg",
+    "title": "The Art of Cooking",
+    "author": "Alice Johnson",
+    "author_image": "https://i.ibb.co/XSB6JdT/download-5.jpg",
+    "posted_time": "2024-03-14T10:00:00Z",
+    "reading_time": 30,
+    "hashtags": ["food", "cooking", "recipes"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/X7qXnm9/download-12.jpg",
+    "title": "Exploring Nature's Wonders",
+    "author": "Bob Williams",
+    "author_image": "https://i.ibb.co/0JsMDnj/download-6.jpg",
+    "posted_time": "2024-03-14T11:30:00Z",
+    "reading_time": 60,
+    "hashtags": ["nature", "outdoors", "wildlife"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/Xpwkbx6/download-7.jpg",
+    "title": "The Power of Meditation",
+    "author": "Eva Martinez",
+    "author_image": "https://i.ibb.co/NWThRtM/download-7.jpg",
+    "posted_time": "2024-03-14T13:45:00Z",
+    "reading_time": 20,
+    "hashtags": ["meditation", "mindfulness", "wellness"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/znGPrQH/download-13.jpg",
+    "title": "Traveling Across the Globe",
+    "author": "David Lee",
+    "author_image": "https://i.ibb.co/z7fpRn7/download-8.jpg",
+    "posted_time": "2024-03-14T15:20:00Z",
+    "reading_time": 45,
+    "hashtags": ["travel", "adventure", "explore"]
+  }
+]

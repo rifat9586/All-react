@@ -1,0 +1,8 @@
+.Bottle{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.Bottle img{
+    width: 100px;
+    height: 100px;
+}

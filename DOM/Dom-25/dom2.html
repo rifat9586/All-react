@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2 id="hend">this is rifat</h2>
+     <input id="input-field" type="text">
+     <button id="btn">hello</button>
+
+     <script>
+       document.getElementById('btn').addEventListener('click', function(){
+        const detr=document.getElementById('input-field');
+        const inputtext= detr.value;
+        const p=document.getElementById('hend');
+        p.innerText=inputtext;
+        detr.value=' ';
+       });
+
+     </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="paragarap">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus repellat non fuga! Quidem eius iste id voluptates, sed libero, iure exercitationem animi labore totam ipsa! Fugit earum amet quos voluptatibus.</p>
+    <input type="text" id="inputt">
+    <button id="btn">click</button>
+
+    <script>
+        document.getElementById('btn').addEventListener('click', function(){
+            const inputtex=document.getElementById('inputt');
+            const valued=inputtex.value;
+
+            const p=document.getElementById('paragarap');
+            p.innerText=valued;
+            inputtex.value=' ';
+        })
+    </script>
+</body>
+</html>

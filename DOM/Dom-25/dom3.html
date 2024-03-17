@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="all-p">
+        <p id="paragarap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vel ab maiores error? Nihil qui
+            magni adipisci libero maxime maiores dolorem totam, at temporibus aspernatur a esse, obcaecati nulla laborum!</p>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vel ab maiores error? Nihil qui
+            magni adipisci libero maxime maiores dolorem totam, at temporibus aspernatur a esse, obcaecati nulla laborum!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vel ab maiores error? Nihil qui
+            magni adipisci libero maxime maiores dolorem totam, at temporibus aspernatur a esse, obcaecati nulla laborum!</p>
+    </div>
+    <textarea name="" id="textOf" cols="30" rows="10"></textarea> <br><br>
+    <button id="btm-hend">book</button>
+   
+
+
+    <script>
+        document.getElementById('btm-hend').addEventListener('click', function(){
+            const parag=document.getElementById('textOf');
+            const valuesy=parag.value;
+            // console.log(valuesy);
+            
+            const all_paragrap=document.getElementById('all-p');
+            const caild=document.createElement('paragarap');
+            caild.innerText=valuesy;
+            all_paragrap.appendChild(caild);
+            parag.value=' ';
+        })
+    </script>
+</body>
+</html>

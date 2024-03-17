@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="textIp">Hello tota</h1>
+    <input type="text" name="" id="inputTex">
+    <button id="deleteId" disabled>Delete</button>
+
+    <script>
+        document.getElementById('inputTex').addEventListener('keyup', function(event){
+            const inputtype=event.target.value;
+            const btnt=document.getElementById('deleteId');
+            if(inputtype==='delete'){
+                btnt.removeAttribute('disabled');
+            }
+            else{
+                btnt.setAttribute('disabled', true);
+            }
+        })
+        // document.getElementById('deleteId').addEventListener('click', function(){
+        //     const textrut=document.getElementById('textIp');
+        //     secret.style.display="none";
+        // })
+    </script>
+</body>
+</html>

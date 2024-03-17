@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <button id="makered">red</button>
+    <button id="ofGreen">green</button>
+    <button id="blackColor">black</button>
+    <script src="./dom.js"></script>
+    <script>
+    const loren=document.getElementById('ofGreen');
+    loren.addEventListener('click', function(){
+      document.body.style.backgroundColor='green';
+    })
+    
+    document.getElementById('blackColor').addEventListener('click', function(){
+      document.body.style.backgroundColor='red';
+    })
+    </script>
+</body>
+</html>
